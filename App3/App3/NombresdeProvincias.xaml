@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.ListaAlumnos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="frmFondo" BackgroundColor="White" Padding="24" CornerRadius="0">
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="logoisp20.png" HeightRequest="64"></Image>
+                    <Label x:Name="lblTitulo" Text="Lista Alumnos 2022" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"/>
+                    <Button x:Name="btnDarkMode" Clicked="SetDarkMode" BackgroundColor="#efefef" Margin="10" CornerRadius="15" TextColor="Black" Text="DarkMode"></Button>
+                    <Button x:Name="btnRecordatorio" Text="Recordatorio" FontSize="Micro"></Button>
+
+                </StackLayout>
+            </Frame>
+            <ScrollView>
+                <StackLayout x:Name="stkBody" BackgroundColor="#efefef">
+
+                    
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="CiudadAutónomadeBuenosAires.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblCiudad Autónoma de Buenos Aires" Text="Ciudad Autónoma de Buenos Aires" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Catamarca.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblCatamarca" Text="Catamarca" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="EntreRios.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblEntreRios" Text="EntreRios" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Chaco.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblChaco" Text="Chaco" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Córdoba.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblCórdoba" Text="Córdoba" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Corrientes.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblCorrientes" Text="Corrientes" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Formosas.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblFormosas" Text="Formosas" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Santa Fe.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblSante Fe" Text="Santa Fe" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Salta.jpg" WidthRequest="64" HeightRequest="64"></Image>
+                        <Label x:Name="lblSalta" Text="Salta" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
